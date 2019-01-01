@@ -1,0 +1,105 @@
+﻿$.widget('widget.conversation', $.widget.base, {
+    options: {
+        name: null
+    },
+    _create: function () {
+        var self = this;
+
+        var conversationHtml = "";
+        conversationHtml += "<div class=\"box box-pink\">";
+        conversationHtml += "";
+        conversationHtml += "<div class=\"box-content\">";
+        conversationHtml += "<div class=\"slimScrollDiv\" style=\"position: relative; overflow: hidden; width: auto; height: 250px;\"><ul class=\"messages messages-chatty slimScroll\" style=\"height: 250px; overflow: hidden; width: auto;\">";
+        conversationHtml += "<li>";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar2.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>David<\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 26 minutes ago<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa. Lorem ipsum in culpa aliquip incididunt cupidatat dolore irure ...<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<li class=\"right\">";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar3.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>Sarah<\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 1 days ago<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa.<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<li class=\"right\">";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar3.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>Sarah<\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 1 days ago<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa.<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<li>";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar4.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>Emma<\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 4 days ago<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa. Lorem ipsum in culpa aliquip incididunt cupidatat dolore irure cupidatat aute cupidatat quis nulla.<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<li>";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar4.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>Emma<\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 4 days ago<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa. Lorem ipsum in culpa aliquip incididunt cupidatat dolore irure cupidatat aute cupidatat quis nulla.<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<li class=\"right\">";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar5.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>John<\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 2 weeks ago<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa. Lorem...<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<li>";
+        conversationHtml += "<img src=\"\/Content\/flaty\/img\/demo\/avatar\/avatar1.jpg\" alt=\"\">";
+        conversationHtml += "<div>";
+        conversationHtml += "<div>";
+        conversationHtml += "<h5>Penny <span class=\"label label-info label-small\">Admin<\/span><\/h5>";
+        conversationHtml += "<span class=\"time\"><i class=\"fa fa-clock-o\"><\/i> 14 July<\/span>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<p>Lorem ipsum commodo quis dolor voluptate et in Excepteur. Lorem ipsum amet dolor qui cupidatat in anim reprehenderit quis id culpa consequat non culpa. Lorem ipsum in culpa aliquip incididunt cupidatat dolore irure cupidatat aute cupidatat quis nulla.<\/p>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/li>";
+        conversationHtml += "<\/ul><div class=\"slimScrollBar\" style=\"background: rgb(0, 0, 0); width: 7px; position: absolute; top: 80px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 100.16px;\"><\/div><div class=\"slimScrollRail\" style=\"width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;\"><\/div><\/div>";
+        conversationHtml += "";
+        conversationHtml += "<div class=\"messages-input-form\">";
+        conversationHtml += "<form method=\"POST\" action=\"#\">";
+        conversationHtml += "<div class=\"input\">";
+        conversationHtml += "<input type=\"text\" name=\"text\" placeholder=\"Write here...\" class=\"form-control\">";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<div class=\"buttons\">";
+        conversationHtml += "<a href=\"#\"><i class=\"fa fa-camera\"><\/i><\/a>";
+        conversationHtml += "<a href=\"#\"><i class=\"fa fa-paperclip\"><\/i><\/a>";
+        conversationHtml += "<button type=\"submit\" class=\"btn btn-primary\"><i class=\"fa fa-share\"><\/i><\/button>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/form>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/div>";
+        conversationHtml += "<\/div>";
+
+        this.element.append(conversationHtml);
+        this._super();
+        this._saveData(null);
+    },
+
+});

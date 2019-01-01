@@ -1,0 +1,23 @@
+$skin-name: 'fabric';
+$hscroll-default-bg: $neutral-white;
+$hscroll-press-bg: $theme-lighter;
+$hscroll-active-bg: $neutral-lighter;
+$hscroll-nav-nrml-minheight: 40px;
+$hscroll-nav-bgr-minheight: 50px;
+$hscroll-nav-nrml-width: 40px;
+$hscroll-nav-bgr-width: 50px;
+$hscroll-nrml-padding: 0 $hscroll-nav-nrml-width;
+$hscroll-bgr-padding: 0 $hscroll-nav-bgr-width;
+$hscroll-border-size: 1px;
+$hscroll-default-border: $neutral-tertiary;
+$hscroll-box-shadow: none;
+$hscroll-hover-bg: $neutral-lighter;
+$hscroll-hover-border-color: '';
+$hscroll-focus-border: '';
+$hscroll-active-border: '';
+$hscroll-hover-border: '';
+$hscroll-active-box-shadow: '';
+$hscroll-default-icon-color: $theme-light-font;
+
+$hscroll-left-arrow-icon: '\e830';
+$hscroll-right-arrow-icon: '\e829';

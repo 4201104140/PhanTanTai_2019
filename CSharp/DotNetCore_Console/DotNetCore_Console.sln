@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System_NameSpace", "System_NameSpace", "{36E736CD-D318-4D3C-A479-EAD47544C14C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System_Test", "System_NameSpace\System_Test\System_Test.csproj", "{7030D951-F0D3-4BFC-A022-6271201615CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System_Test", "System_NameSpace\System_Test\System_Test.csproj", "{7030D951-F0D3-4BFC-A022-6271201615CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstWeb", "FirstWeb", "{8588FE5C-8D06-400A-9A59-297167E7BA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhanTanTai", "FirstWeb\PhanTanTai\PhanTanTai.csproj", "{681DE53D-D939-4C53-92A0-23FA7CAAF92D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{7030D951-F0D3-4BFC-A022-6271201615CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7030D951-F0D3-4BFC-A022-6271201615CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7030D951-F0D3-4BFC-A022-6271201615CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681DE53D-D939-4C53-92A0-23FA7CAAF92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681DE53D-D939-4C53-92A0-23FA7CAAF92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681DE53D-D939-4C53-92A0-23FA7CAAF92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681DE53D-D939-4C53-92A0-23FA7CAAF92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7030D951-F0D3-4BFC-A022-6271201615CF} = {36E736CD-D318-4D3C-A479-EAD47544C14C}
+		{681DE53D-D939-4C53-92A0-23FA7CAAF92D} = {8588FE5C-8D06-400A-9A59-297167E7BA8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00DDD9A0-C0DE-468A-BE5F-09918CC7A820}

@@ -1,0 +1,23 @@
+$skin-name: 'highcontrast';
+$hscroll-default-bg: $bg-base-0;
+$hscroll-press-bg: $selection-bg;
+$hscroll-active-bg: $selection-bg;
+$hscroll-nav-nrml-minheight: 40px;
+$hscroll-nav-bgr-minheight: 50px;
+$hscroll-nav-nrml-width: 40px;
+$hscroll-nav-bgr-width: 50px;
+$hscroll-nrml-padding: 0 $hscroll-nav-nrml-width;
+$hscroll-bgr-padding: 0 $hscroll-nav-bgr-width;
+$hscroll-border-size: 1px;
+$hscroll-default-border: $border-fg;
+$hscroll-box-shadow: none;
+$hscroll-hover-bg: $hover-bg;
+$hscroll-hover-border-color: '';
+$hscroll-focus-border: '';
+$hscroll-active-border: '';
+$hscroll-hover-border: '';
+$hscroll-active-box-shadow: '';
+$hscroll-default-icon-color: $selection-bg;
+
+$hscroll-left-arrow-icon: '\e830';
+$hscroll-right-arrow-icon: '\e829';

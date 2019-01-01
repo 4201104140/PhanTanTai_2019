@@ -1,0 +1,393 @@
+﻿@include export-module('accordion-theme') {
+  /*! accordion theme */
+  // sass-lint:disable no-vendor-prefixes
+  #{&}.e-accordion {
+    -webkit-tap-highlight-color: $acrdn-tab-highlight-color;
+    background: $acrdn-bg-color;
+    border: $acrdn-border-size $acrdn-border-type $acrdn-default-border;
+
+    @if $skin-name == 'highcontrast' {
+      background: $bg-base-0;
+    }
+
+    .e-active {
+      background: $acrdn-active-bg;
+      @if $skin-name == 'highcontrast' {
+        background: $bg-base-0;
+      }
+    }
+
+    .e-acrdn-item {
+      @if $skin-name == 'fabric' {
+        border-bottom: 1px solid $neutral-white;
+        border-top: 1px solid $neutral-white;
+      }
+
+      &.e-item-focus {
+        @if $skin-name == 'fabric' {
+          border-bottom: 1px solid $acrdn-header-focus-bg;
+          border-top: 1px solid $acrdn-header-focus-bg;
+        }
+
+        @if $skin-name == 'highcontrast' {
+          .e-acrdn-header:focus {
+            border-color: $bg-base-100;
+          }
+        }
+      }
+
+      &.e-item-focus.e-select.e-selected.e-expand-state {
+        @if $skin-name == 'fabric' or $skin-name == 'material' {
+          border-top: 1px solid $acrdn-selected-header-color;
+        }
+
+        @if $skin-name == 'highcontrast' {
+          .e-acrdn-header:focus {
+            border: 2px dashed $bg-base-100;
+          }
+
+          .e-acrdn-header:hover:focus {
+            background: $selection-bg;
+            border-color: $bg-base-100;
+
+            .e-icons,
+            .e-acrdn-header-content {
+              color: $selection-font;
+            }
+          }
+        }
+      }
+
+      &.e-item-focus.e-expand-state.e-select,
+      &.e-item-focus.e-select.e-selected.e-expand-state  {
+        @if $skin-name == 'material' {
+          border-color: $acrdn-header-focus-bg;
+        }
+      }
+
+      &.e-expand-state.e-select {
+        @if $skin-name == 'fabric' or $skin-name == 'material' {
+          border-bottom: 1px solid $acrdn-selected-header-color;
+          border-top: 1px solid $acrdn-selected-header-color;
+        }
+      }
+
+      .e-acrdn-header {
+        @if $skin-name == 'fabric' {
+          border: 1px solid $neutral-white;
+        }
+      }
+
+      &.e-overlay {
+        background: $acrdn-bg-color;
+
+        @if $skin-name == 'highcontrast' {
+          .e-acrdn-header {
+
+            .e-icons,
+            .e-acrdn-header-content {
+              color: $disable;
+            }
+          }
+        }
+      }
+
+      &.e-selected.e-select.e-expand-state > .e-acrdn-header {
+
+        &:focus {
+          @if $skin-name == 'fabric' {
+            border: 1px solid $neutral-secondary;
+          }
+          @else if $skin-name == 'highcontrast' {
+            border: 2px dashed $bg-base-100;
+          }
+          @else {
+            background: $acrdn-header-focus-bg;
+          }
+        }
+      }
+
+      .e-acrdn-panel.e-nested {
+
+        .e-acrdn-header .e-acrdn-header-content {
+          color: $acrdn-header-font;
+        }
+
+        @if $skin-name == 'highcontrast' {
+          .e-expand-state {
+            > .e-icons,
+            > .e-acrdn-header-content {
+              color: $selection-font;
+            }
+          }
+        }
+      }
+
+      &.e-select {
+
+        @if $skin-name == 'bootstrap' {
+          background: $grey-f5;
+          border: $acrdn-border-size solid $acrdn-default-border;
+        }
+
+        .e-acrdn-panel .e-acrdn-content {
+          color: $acrdn-content-color;
+
+          @if $skin-name == 'highcontrast' {
+            background: $bg-base-0;
+          }
+        }
+
+        @if $skin-name == 'material' {
+          .e-acrdn-panel .e-acrdn-content .e-content-icon {
+            color: $acrdn-icon-color;
+          }
+        }
+      }
+
+      .e-acrdn-header {
+
+        .e-acrdn-header-content {
+          color: $acrdn-header-font;
+        }
+
+        .e-acrdn-header-icon {
+          color: $acrdn-icon-color;
+        }
+      }
+
+      &.e-expand-state.e-select:not(.e-selected) > .e-acrdn-header {
+
+        &:focus {
+          @if $skin-name == 'fabric' {
+            border: 1px solid $neutral-secondary;
+          }
+          @else if $skin-name == 'highcontrast' {
+            border-color: $bg-base-100;
+          }
+          @else {
+            background: $acrdn-header-focus-bg;
+          }
+        }
+      }
+
+      .e-acrdn-header {
+
+        @if $skin-name == 'highcontrast' {
+          border: 1px solid $bg-base-0;
+        }
+
+        &:hover {
+          @if $skin-name == 'fabric' {
+            border: 1px solid $acrdn-header-hover-bg;
+          }
+          background: $acrdn-header-hover-bg;
+          @if $skin-name == 'highcontrast' {
+            border-color: $hover-border;
+          }
+        }
+
+        &:active {
+          @if $skin-name == 'fabric' {
+            border: 1px solid $acrdn-header-active-bg;
+          }
+          background: $acrdn-header-active-bg;
+          @if $skin-name == 'highcontrast' {
+            border-color: $selection-bg;
+          }
+        }
+
+        &:focus {
+          @if $skin-name == 'fabric' {
+            border: 1px solid $acrdn-header-focus-bg;
+          }
+          background: $acrdn-header-focus-bg;
+          @if $skin-name == 'highcontrast' {
+            background: inherit;
+            border: 2px dashed $bg-base-100;
+
+            &:active {
+
+              .e-icons,
+              .e-acrdn-header-content,
+              .e-toggle-icon {
+                color: $content-font;
+              }
+            }
+          }
+        }
+      }
+
+      &.e-select {
+
+        &.e-selected.e-expand-state > .e-acrdn-header,
+        &.e-expand-state > .e-acrdn-header {
+          @if $skin-name == 'fabric' {
+            border: 1px solid $acrdn-selected-header-color;
+          }
+          background: $acrdn-selected-header-color;
+
+          @if $skin-name == 'highcontrast' {
+            background: $selection-bg;
+            border-color: $selection-bg;
+
+            .e-acrdn-header-icon {
+              color: $selection-font;
+            }
+
+            &:hover {
+              background: $hover-bg;
+              border-color: $hover-border;
+
+              .e-icons,
+              .e-acrdn-header-content {
+                color: $hover-font;
+              }
+
+              &:focus .e-icons,
+              &:focus .e-acrdn-header-content {
+                color: $selection-font;
+              }
+            }
+          }
+
+          > .e-toggle-icon {
+            color: $acrdn-selected-icon-color;
+          }
+
+          .e-acrdn-header-icon,
+          .e-acrdn-header-content {
+            color: $acrdn-selected-header-font-color;
+          }
+        }
+
+        &.e-expand-state > .e-acrdn-header:hover:focus {
+          @if $skin-name == 'highcontrast' {
+            .e-icons,
+            .e-acrdn-header-content {
+              color: $hover-font;
+            }
+          }
+        }
+      }
+
+      &.e-select {
+        @if $skin-name == 'material' {
+          border-bottom: $acrdn-selected-border-size $acrdn-selected-border-type  transparent;
+          border-top: $acrdn-selected-border-size $acrdn-selected-border-type  transparent;
+
+          &.e-item-focus {
+            border-color: $acrdn-header-focus-bg;
+          }
+        }
+
+        @if $skin-name == 'highcontrast' {
+          &.e-expand-state .e-acrdn-header:hover {
+            border-color: $hover-border;
+
+            .e-icons,
+            .e-acrdn-header-content {
+              color: $hover-font;
+            }
+          }
+        }
+      }
+
+      &.e-selected {
+        @if $skin-name == 'bootstrap' {
+          border:  $acrdn-border-size solid $acrdn-default-border;
+        }
+        @else {
+          &.e-select {
+            border-bottom: $acrdn-selected-border-size $acrdn-selected-border-type  $acrdn-selected-border-color;
+            border-top: $acrdn-selected-border-size $acrdn-selected-border-type  $acrdn-selected-border-color;
+          }
+        }
+
+        + .e-selected {
+          @if $skin-name == 'bootstrap' {
+            border:  $acrdn-border-size solid $acrdn-default-border;
+          }
+          @if $skin-name == 'material' {
+            border-top: $acrdn-selected-border-size solid  transparent;
+          }
+          @else {
+            border-top: $acrdn-selected-border-size none  $acrdn-selected-border-color;
+          }
+        }
+        @if $skin-name != 'bootstrap' {
+          .e-selected:last-child {
+            border-bottom: $acrdn-selected-border-size none  $acrdn-selected-border-color;
+          }
+        }
+
+        @if $skin-name == 'highcontrast' {
+          .e-acrdn-item.e-selected:not(.e-expand-state) {
+            > .e-acrdn-header .e-icons,
+            > .e-acrdn-header .e-acrdn-header-content {
+              color: $content-font;
+            }
+          }
+
+          .e-acrdn-item.e-selected.e-expand-state {
+            > .e-acrdn-header .e-icons,
+            > .e-acrdn-header .e-acrdn-header-content {
+              color: $selection-font;
+            }
+
+            &:hover {
+              > .e-acrdn-header .e-icons,
+              > .e-acrdn-header .e-acrdn-header-content {
+                color: $hover-font;
+              }
+            }
+          }
+        }
+
+        &.e-select > .e-acrdn-header {
+          @if $skin-name == 'bootstrap' {
+            background: $acrdn-selected-header-color;
+            border: 0;
+            border-bottom:  $acrdn-border-size solid $acrdn-default-border;
+            border-radius: 0;
+          }
+
+          @if $skin-name == 'highcontrast' {
+
+            &:focus {
+              border: 2px dashed $bg-base-100;
+            }
+
+            &:hover {
+              border-color: $hover-border;
+
+              .e-icons,
+              .e-acrdn-header-content {
+                color: $hover-font;
+              }
+            }
+          }
+        }
+
+        > .e-acrdn-panel {
+
+          .e-acrdn-content {
+            color: $acrdn-content-color;
+          }
+
+          .e-acrdn-header-content {
+            color: $acrdn-nested-header-font;
+          }
+        }
+      }
+
+      .e-toggle-icon {
+        color: $acrdn-icon-color;
+      }
+
+      .e-acrdn-panel {
+        font-size: $acrdn-content-font-size;
+      }
+    }
+  }
+}

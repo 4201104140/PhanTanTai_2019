@@ -1,0 +1,26 @@
+@include export-module('hscroll-icons') {
+  /*! hscroll icons */
+  #{&}.e-hscroll {
+
+    &.e-rtl {
+
+      .e-nav-left-arrow::before {
+        content: $hscroll-left-arrow-icon;
+         }
+
+      .e-nav-right-arrow::before {
+        content: $hscroll-right-arrow-icon;
+        }
+    }
+
+    .e-nav-left-arrow::before {
+      content: $hscroll-right-arrow-icon;
+      line-height: normal;
+    }
+
+    .e-nav-right-arrow::before {
+      content: $hscroll-left-arrow-icon;
+      line-height: normal;
+    }
+}
+}

@@ -1,0 +1,24 @@
+/*! component's theme wise override definitions and variables */
+$skin-name: 'bootstrap';
+$hscroll-default-bg: $grey-f8;
+$hscroll-nav-nrml-minheight: 40px;
+$hscroll-nav-bgr-minheight: 50px;
+$hscroll-nav-nrml-width: 40px;
+$hscroll-nav-bgr-width: 50px;
+$hscroll-nrml-padding: 0 $hscroll-nav-nrml-width;
+$hscroll-bgr-padding: 0 $hscroll-nav-bgr-width;
+$hscroll-box-shadow: none;
+
+$hscroll-default-icon-color: $grey-light-font;
+$hscroll-hover-bg: $grey-e6;
+$hscroll-press-bg: $grey-e6;
+$hscroll-default-border: $grey-cc;
+$hscroll-focus-border: '';
+$hscroll-active-border: '';
+$hscroll-hover-border: '';
+$hscroll-hover-border-color: '';
+$hscroll-active-box-shadow: inset 0 3px 5px rgba(0 , 0 , 0 , .125);
+
+$hscroll-left-arrow-icon: '\e848';
+$hscroll-right-arrow-icon: '\e84b';
+

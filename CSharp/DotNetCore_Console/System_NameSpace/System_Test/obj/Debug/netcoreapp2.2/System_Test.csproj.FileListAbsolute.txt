@@ -1,0 +1,11 @@
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\bin\Debug\netcoreapp2.2\System_Test.deps.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\bin\Debug\netcoreapp2.2\System_Test.runtimeconfig.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\bin\Debug\netcoreapp2.2\System_Test.runtimeconfig.dev.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\bin\Debug\netcoreapp2.2\System_Test.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\bin\Debug\netcoreapp2.2\System_Test.pdb
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\obj\Debug\netcoreapp2.2\System_Test.csprojAssemblyReference.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\obj\Debug\netcoreapp2.2\System_Test.csproj.CoreCompileInputs.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\obj\Debug\netcoreapp2.2\System_Test.AssemblyInfoInputs.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\obj\Debug\netcoreapp2.2\System_Test.AssemblyInfo.cs
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\obj\Debug\netcoreapp2.2\System_Test.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_Console\System_NameSpace\System_Test\obj\Debug\netcoreapp2.2\System_Test.pdb

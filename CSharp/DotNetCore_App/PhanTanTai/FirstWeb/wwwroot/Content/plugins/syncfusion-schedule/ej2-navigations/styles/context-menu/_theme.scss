@@ -1,0 +1,80 @@
+@include export-module('contextmenu-theme') {
+  /*! contextmenu theme */
+  .e-contextmenu-wrapper {
+    @at-root {
+      & ul {
+        background-color: $ul-bgcolor;
+        color: $color;
+
+        & .e-menu-item  {
+
+          & .e-menu-url {
+            color: $color;
+          }
+
+          &.e-focused {
+            background-color: $li-bgcolor;
+            color: $li-selection-font-color;
+            outline: $li-hover-outline;
+            outline-offset: $li-hover-outline-offset;
+
+            & .e-caret {
+              color: $caret-color;
+             }
+
+            & .e-menu-icon {
+              color: $menu-icon-color;
+            }
+          }
+
+          &.e-selected {
+            background-color: $li-selection-bgcolor;
+            color: $selected-color;
+            outline: $li-selected-outline;
+            outline-offset: $li-selected-outline-offset;
+
+            & .e-caret {
+              color: $caret-hover-color;
+            }
+
+            & .e-menu-icon {
+              color: $menu-hover-icon-color;
+            }
+          }
+
+          &.e-menu-header {
+            border-bottom-color: $li-border-color;
+          }
+
+          & .e-menu-icon {
+            color: $menu-icon-color;
+          }
+
+          & .e-caret {
+            color: $caret-color;
+          }
+        }
+
+        & .e-separator {
+          border-bottom-color: $li-border-color;
+        }
+
+        & .e-disable {
+          color: $disable-text;
+
+          & .e-menu-icon {
+            color: $menu-icon-disabled-color;
+          }
+
+          & .e-caret {
+            color: $menu-icon-disabled-color;
+          }
+
+          & .e-menu-url {
+            color: $disable-text;
+          }
+        }
+      }
+    }
+  }
+}

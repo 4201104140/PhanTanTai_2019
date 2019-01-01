@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace System_Test
 {
@@ -6,7 +7,14 @@ namespace System_Test
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			//_Activator activator = new _Activator();
+			//activator.Run();
+
+			//_AggregateException aggregateException = new _AggregateException();
+			//aggregateException.Run().Wait();
+
+			
+			Console.ReadKey();
 		}
 	}
 }
