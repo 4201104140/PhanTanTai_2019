@@ -1,0 +1,14 @@
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\bin\Debug\netcoreapp2.2\First_Web.deps.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\bin\Debug\netcoreapp2.2\First_Web.runtimeconfig.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\bin\Debug\netcoreapp2.2\First_Web.runtimeconfig.dev.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\bin\Debug\netcoreapp2.2\First_Web.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\bin\Debug\netcoreapp2.2\First_Web.pdb
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.csprojAssemblyReference.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.csproj.CoreCompileInputs.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.RazorAssemblyInfo.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.RazorAssemblyInfo.cs
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.AssemblyInfoInputs.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.AssemblyInfo.cs
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.RazorTargetAssemblyInfo.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\First_Web\First_Web\obj\Debug\netcoreapp2.2\First_Web.pdb

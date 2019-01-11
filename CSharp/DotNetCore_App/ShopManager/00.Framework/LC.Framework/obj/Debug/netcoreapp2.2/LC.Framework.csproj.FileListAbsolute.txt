@@ -1,0 +1,12 @@
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\bin\Debug\netcoreapp2.2\LC.Framework.deps.json
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\bin\Debug\netcoreapp2.2\LC.Framework.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\bin\Debug\netcoreapp2.2\LC.Framework.pdb
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.csprojAssemblyReference.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.csproj.CoreCompileInputs.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.AssemblyInfoInputs.cache
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.AssemblyInfo.cs
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.csproj.CopyComplete
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.dll
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\00.Framework\LC.Framework\obj\Debug\netcoreapp2.2\LC.Framework.pdb

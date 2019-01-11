@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+	<link href="~/css/Tai_Login.css" rel="stylesheet" />
+	<script src="~/js/Tai_Login.js"></script>
+</head>
+<body>
+	<div class="container">
+		<section id="content">
+			<form action="">
+				<h1>Login Form</h1>
+				<div>
+					<input type="text" placeholder="Username" required="" oninvalid="this.setCustomValidity('hahaah');" id="username"/>
+				</div>
+				<div>
+					<input type="password" placeholder="Password" required="" id="password"/>
+				</div>
+				<div>
+					<input type="submit" value="Log in"/>
+				</div>
+				<div>
+					<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+					</fb:login-button>
+				</div>
+			</form>
+		</section>
+	</div>
+</body>
+</html>

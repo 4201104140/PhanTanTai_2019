@@ -1,0 +1,12 @@
+﻿@model List<MVCDemo.Models.Customer>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<ul>
+	@foreach(var customer in Model)
+	{
+		<li>@customer.Name</li>
+	}
+</ul>
+
