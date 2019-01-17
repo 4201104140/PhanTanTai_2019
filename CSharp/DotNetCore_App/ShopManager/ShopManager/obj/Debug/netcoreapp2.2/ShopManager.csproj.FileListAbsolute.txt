@@ -37,3 +37,5 @@ C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManage
 C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\ShopManager\bin\Debug\netcoreapp2.2\LC.Framework.pdb
 C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\ShopManager\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CommonPage.g.cshtml.cs
 C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\ShopManager\obj\Debug\netcoreapp2.2\Razor\Views\Layout\EmptyLayout.g.cshtml.cs
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\ShopManager\obj\Debug\netcoreapp2.2\Razor\Views\Layout\_leftPanel.g.cshtml.cs
+C:\Users\phant\OneDrive\Desktop\PhanTanTai_2019\CSharp\DotNetCore_App\ShopManager\ShopManager\obj\Debug\netcoreapp2.2\Razor\Views\Layout\_rightPanel.g.cshtml.cs
